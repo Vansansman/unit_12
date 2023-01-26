@@ -14,8 +14,8 @@ def test_submitting_form():
 
     form = Form()
 
-    with allure.step('submit_form'):
+    with allure.step('заполнение формы'):
         form.submit_form(nikita)
 
-    with allure.step('validate_form'):
+    with allure.step('проверка формы'):
         form.validate_form(nikita)
