@@ -5,7 +5,7 @@ __pycache__/
 
 .pytest_cache
 /v
-**/allure-results
+allure-results
 # C extensions
 *.so
 .idea/
